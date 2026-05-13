@@ -101,7 +101,7 @@ body{
     }
 
     #name, #prenom, #mail, #password {
-        width: 100%;
+        width: 90%;
     }
 
     .login button {
