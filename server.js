@@ -8,7 +8,7 @@ const bcrypt = require('bcrypt')
 
 
 const app = express()
-const port = 5500
+const port = process.env.PORT || 5500
 
 // Middleware
 // ⚠️ Retirer express.static pour éviter le conflit avec la route GET /
